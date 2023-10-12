@@ -1,6 +1,6 @@
 body{
     background-color: lightblue;
-}
+}/*set background colour of the whole page to light blue*/
 
 header {
     padding: 20px;
@@ -25,14 +25,14 @@ header nav ul {
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
-}
+}/*styles header and nav links so they all appear in one line with the nav on the right*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 nav a:hover {
     color: black;
-}
+}/*when nav links hoves the appear black*/
 
 
 
@@ -51,7 +51,7 @@ nav a:hover {
     margin-right: 25px;
     width: auto;
     height: 200px;
-}
+}/*styling create me section so my id image is on the left with the conent anout me on the right next to it*/
 
 .header3 {
     display: inline-block;
@@ -82,7 +82,7 @@ nav a:hover {
 .container:hover .image1 {
     opacity: 0.3;
 }
-
+/*i have basically done this for all 3 images it styles them so when they are hovered the opacity changes*/
 .container2 {
     position: relative;
     width: 50%;
@@ -121,12 +121,6 @@ nav a:hover {
 }
 
 
-
-#contact-me{
-    bottom:0;
-}
-
-
 footer {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -147,7 +141,7 @@ footer ul{
 footer ul li {
     display: inline-block;
     margin-left: 25px;
-}
+}/*styles footer to similar to how i syled the header*/
 
 @media screen and (max-width: 840px) {
     header nav{
@@ -160,4 +154,4 @@ footer ul li {
         float:none
     }
 
-}
+}/*when the screen size is smaller than 840 it will put the text on the right not on the right*/
